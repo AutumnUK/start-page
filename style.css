@@ -13,7 +13,7 @@ ul {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 90vw;
     height: 90vh;
     margin: auto;
@@ -22,16 +22,13 @@ ul {
 .main {
     margin: auto;
     width: 600px;
-    height: 480px;
+    height: auto;
     border: 3px solid #ddd;
     background-color: #000;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-
 
 .lists {
     display: grid;
@@ -40,21 +37,24 @@ ul {
     height: 140px;
 }
 
-
 p,
 a {
     color: #666;
     transition: 0.3s;
     text-decoration: none;
+    background-color: #000;
+    width: 70px;
 }
 
 p,
-a:hover {
+a:hover,
+h1 {
     color: #ddd;
+    background-color: #666;
+    width: 70px;
 }
 
 .img {
     width: 600px;
     height: 340px;
-
 }
