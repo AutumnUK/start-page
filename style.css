@@ -23,7 +23,7 @@ ul {
     margin: auto;
     width: 600px;
     height: auto;
-    border: 3px solid #ddd;
+    border: 3px solid #b3c3c0;
     background-color: #000;
     display: grid;
     grid-column-gap: 0px;
@@ -34,7 +34,7 @@ ul {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     margin: auto;
-    height: 140px;
+    height: auto;
 }
 
 p,
@@ -49,7 +49,7 @@ a {
 p,
 a:hover,
 h1 {
-    color: #ddd;
+    color: #b3c3c0;
     background-color: #666;
     width: 70px;
 }
@@ -57,4 +57,29 @@ h1 {
 .img {
     width: 600px;
     height: 340px;
+}
+
+.boxes {
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 200px;
+    height: 5px;
+}
+
+.box1 {
+    background-color: #306bab;
+}
+
+.box2 {
+    background-color: #b92a2c;
+}
+
+.box3 {
+    background-color: #b3c3c0;
 }
