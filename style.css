@@ -4,11 +4,11 @@ body {
     text-align: center;
     background-image: url("res/back.png");
     background-repeat: repeat-y repeat-y;
+    
 }
 
-ul {
-    list-style-position: inside;
-    padding-left: 0;
+li {
+    list-style-type: none;
 }
 
 .container {
